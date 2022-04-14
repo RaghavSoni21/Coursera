@@ -1,1 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
 
+h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 175%;
+}
+
+.box{
+    float: left;
+    width: 32%;
+    height: auto;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+    background-color: gray;
+    position: relative;
+}
+
+.title{
+    /* padding-right: 15px; */
+    border: 3px;
+    width: max-content;
+    border-color: black;
+    border-style: solid;
+    font-size: 125%;
+    position: relative;
+    
+    
+}
+
+.title1{
+    left: 80%;
+}
+
+.title2{
+    left: 89%;
+}
+
+.title3{
+    left: 86%;
+}
+
+.content{
+    text-align: center;
+    
+}
+
+.cpink{
+    background-color: pink;
+}
+
+.cred{
+    background-color: red;
+}
+
+.cyellow{
+    background-color: yellow;
+}
+
+@media (max-width: 767px){
+    .box{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .box12{
+        width: 48.2%;
+        
+    }
+
+    .box3{
+        width: 100%;
+    }
+
+}
